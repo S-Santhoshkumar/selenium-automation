@@ -1,0 +1,57 @@
+ rm -rf .git
+to delete
+
+git init -- to init
+
+ git remote add origin https://github.com/S-Santhoshkumar/git-hub-test.git
+
+
+git status
+
+git add .
+
+git status
+
+git commit -m "initial commit"
+
+git branch -a
+
+ git push -u origin master
+
+
+
+to clone project 
+cd Desktop
+git clone http_
+
+
+changes:
+cd project name
+git status
+git add .
+git status
+git commit -m "changed mul method"
+git push -u origin master
+
+
+to create new branch 
+git checkout branchname
+git branch -a
+git status
+git add .
+git commit -m ""
+git push -u origin branchname
+
+before merging we need create pull request 
+git checkout master
+git branch -a
+git pull
+merge tool available - git mergetool --tool-help
+git config merge.tool vmdiff -to set default tool
+git merge branchname new
+git mergetool
+enter
+git merge newbranch name
+git status
+git commit -m ""
+git push -u origin master
